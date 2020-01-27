@@ -12,11 +12,12 @@
 
       <v-flex mb-4>
         <h1 class="display-2 font-weight-bold mb-3">
-          Welcome to Vuetify
+          Samsara Music Company
         </h1>
         <p class="subheading font-weight-regular">
-          For help and collaboration with other Vuetify developers,
-          <br />please join our online
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
+          harum iusto
+          <br />dolor sit amet, consectetur adipisicing elit. Repellendus
           <a href="https://community.vuetifyjs.com" target="_blank"
             >Discord Community</a
           >
@@ -76,7 +77,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Home",
 
   data: () => ({
     ecosystem: [
