@@ -20,25 +20,31 @@ const routes = [
     path: "/media",
     name: "Media",
     component: () =>
-      import(/* webpackChunkName: "about" */ "@/views/MediaPage.vue")
+      import(/* webpackChunkName: "media" */ "@/views/MediaPage.vue")
   },
   {
     path: "/releases",
     name: "Releases",
     component: () =>
-      import(/* webpackChunkName: "about" */ "@/views/ReleasesPage.vue")
+      import(/* webpackChunkName: "releases" */ "@/views/ReleasesPage.vue")
   },
   {
     path: "/store",
     name: "Store",
     component: () =>
-      import(/* webpackChunkName: "about" */ "@/views/StorePage.vue")
+      import(/* webpackChunkName: "store" */ "@/views/StorePage.vue")
   },
   {
     path: "/tours",
     name: "Tours",
     component: () =>
-      import(/* webpackChunkName: "about" */ "@/views/ToursPage.vue")
+      import(/* webpackChunkName: "tours" */ "@/views/ToursPage.vue")
+  },
+  {
+    path: "*",
+    name: "NotFound",
+    component: () =>
+      import(/* webpackChunkName: "notfound" */ "@/views/NotFoundPage.vue")
   }
 ];
 
