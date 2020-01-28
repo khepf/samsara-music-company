@@ -138,5 +138,28 @@
         </v-btn>
       </v-card-actions>
     </v-card>
+    <v-card class="mx-auto" max-width="400">
+      <v-img
+        class="white--text align-end"
+        height="200px"
+        src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+      >
+        <v-card-title>The Windy Summit</v-card-title>
+      </v-img>
+
+      <v-card-subtitle class="pb-0">Washington DC</v-card-subtitle>
+
+      <v-card-text class="text--primary">
+        <div>February 29th, 2020</div>
+
+        <div>$5 at the door</div>
+      </v-card-text>
+
+      <v-card-actions>
+        <v-btn color="orange" text>
+          Tickets
+        </v-btn>
+      </v-card-actions>
+    </v-card>
   </v-container>
 </template>
