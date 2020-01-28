@@ -1,7 +1,7 @@
 <template>
   <v-card class="mx-auto" max-width="500">
     <v-container fluid>
-      <h1>Who are we?</h1>
+      <h1 class="text-center mb-3">Who are we?</h1>
       <v-row dense>
         <v-col v-for="card in cards" :key="card.title" :cols="card.flex">
           <v-card>

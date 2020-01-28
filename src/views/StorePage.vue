@@ -1,8 +1,5 @@
 <template>
   <v-card max-width="400" class="mx-auto">
-    
-
-
     <v-container>
       <v-row dense>
         <v-col cols="12">
