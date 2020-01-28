@@ -12,7 +12,7 @@
 
       <v-flex mb-4>
         <h1 class="display-2 font-weight-bold mb-3">
-          Catchy Slogan Here
+          poly-rhythmic multi-ethnic groove-fusion
         </h1>
         <p class="subheading font-weight-regular">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
