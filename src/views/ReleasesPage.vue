@@ -14,8 +14,6 @@
               allow="encrypted-media"
             ></iframe>
           </v-list-item-content>
-
-          <v-list-item-avatar tile size="80" color="grey"></v-list-item-avatar>
         </v-list-item>
       </v-card>
       <v-card class="mx-auto" max-width="500" outlined>
@@ -30,8 +28,6 @@
               allow="encrypted-media"
             ></iframe>
           </v-list-item-content>
-
-          <v-list-item-avatar tile size="80" color="grey"></v-list-item-avatar>
         </v-list-item>
       </v-card>
       <v-card class="mx-auto" max-width="500" outlined>
@@ -46,8 +42,6 @@
               allow="encrypted-media"
             ></iframe>
           </v-list-item-content>
-
-          <v-list-item-avatar tile size="80" color="grey"></v-list-item-avatar>
         </v-list-item>
       </v-card>
     </v-row>
