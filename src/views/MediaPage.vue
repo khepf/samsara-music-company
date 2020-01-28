@@ -4,7 +4,7 @@
     <v-row>
       <v-card class="mx-auto" max-width="560" outlined>
         <v-list-item three-line>
-          <v-list-item-content>
+          <v-list-item-content contain>
             <iframe
               width="560"
               height="315"
@@ -18,7 +18,7 @@
       </v-card>
       <v-card class="mx-auto" max-width="560" outlined>
         <v-list-item three-line>
-          <v-list-item-content>
+          <v-list-item-content contain>
             <iframe
               width="560"
               height="315"
