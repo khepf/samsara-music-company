@@ -1,6 +1,6 @@
 <template>
   <div class="releases">
-    <h1 class="text-center">This is a releases page</h1>
+    <h1 class="text-center mb-3">This is a releases page</h1>
     <v-row>
       <v-card class="mx-auto" max-width="500" outlined>
         <v-list-item three-line>

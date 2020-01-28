@@ -1,5 +1,60 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <v-card class="mx-auto" max-width="500">
+    <v-container fluid>
+      <h1>Who are we?</h1>
+      <v-row dense>
+        <v-col v-for="card in cards" :key="card.title" :cols="card.flex">
+          <v-card>
+            <v-img
+              :src="card.src"
+              class="white--text align-end"
+              gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+              height="200px"
+            >
+              <v-card-title v-text="card.title"></v-card-title>
+            </v-img>
+
+            <v-card-actions>
+              <v-spacer></v-spacer>
+
+              <v-btn icon>
+                <v-icon>mdi-heart</v-icon>
+              </v-btn>
+
+              <v-btn icon>
+                <v-icon>mdi-bookmark</v-icon>
+              </v-btn>
+
+              <v-btn icon>
+                <v-icon>mdi-share-variant</v-icon>
+              </v-btn>
+            </v-card-actions>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+  </v-card>
 </template>
+<script>
+export default {
+  data: () => ({
+    cards: [
+      {
+        title: "A Brief History",
+        src: "https://cdn.vuetifyjs.com/images/cards/house.jpg",
+        flex: 12
+      },
+      {
+        title: "Always Positive",
+        src: "https://cdn.vuetifyjs.com/images/cards/road.jpg",
+        flex: 6
+      },
+      {
+        title: "Outer Space Boom",
+        src: "https://cdn.vuetifyjs.com/images/cards/plane.jpg",
+        flex: 6
+      }
+    ]
+  })
+};
+</script>
