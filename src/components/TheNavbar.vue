@@ -12,7 +12,7 @@
     </v-app-bar>
     <v-navigation-drawer
       v-model="hamburgerMenuOpen"
-      bottom
+      left
       color="primary"
       dark
       app
