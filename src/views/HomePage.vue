@@ -2,12 +2,20 @@
   <v-container>
     <v-layout text-center wrap>
       <v-flex xs12>
-        <v-img
-          :src="require('@/assets/samsara-logo.jpg')"
-          class="my-3"
-          contain
-          height="400"
-        ></v-img>
+        <section
+          class="top-flex"
+          :style="{
+            backgroundImage: `url(${band1})`,
+            backgroundSize: '100% 100%'
+          }"
+        >
+          <v-img
+            :src="require('@/assets/samsara-logo.jpg')"
+            class="my-3 samsara-logo"
+            contain
+            height="400"
+          ></v-img>
+        </section>
       </v-flex>
 
       <v-flex mb-4>
@@ -76,6 +84,7 @@
 </template>
 
 <script>
+import band1 from "@/assets/band1.jpg";
 export default {
   name: "Home",
 
@@ -95,10 +104,6 @@ export default {
       }
     ],
     importantLinks: [
-      {
-        text: "Documentation",
-        href: "https://vuetifyjs.com"
-      },
       {
         text: "Chat",
         href: "https://community.vuetifyjs.com"
@@ -129,7 +134,16 @@ export default {
         text: "Frequently Asked Questions",
         href: "https://vuetifyjs.com/getting-started/frequently-asked-questions"
       }
-    ]
+    ],
+    band1
   })
 };
 </script>
+<style lang="scss">
+.top-flex {
+  border: 2px solid red;
+}
+.samsara-logo {
+  opacity: 0.8;
+}
+</style>

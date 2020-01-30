@@ -67,12 +67,12 @@ export default {
         url: "/releases"
       },
       {
-        label: "Store",
-        url: "/store"
-      },
-      {
         label: "Shows",
         url: "/shows"
+      },
+      {
+        label: "Store",
+        url: "/store"
       }
     ]
   }),
