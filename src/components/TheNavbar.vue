@@ -9,6 +9,16 @@
       ></v-app-bar-nav-icon>
 
       <v-toolbar-title>Samsara Music Company</v-toolbar-title>
+      <v-spacer />
+      <v-btn icon color="black">
+        <v-icon>mdi-facebook</v-icon>
+      </v-btn>
+      <v-btn icon color="black">
+        <v-icon>mdi-spotify</v-icon>
+      </v-btn>
+      <v-btn icon color="black">
+        <v-icon>mdi-instagram</v-icon>
+      </v-btn>
     </v-app-bar>
     <v-navigation-drawer
       v-model="hamburgerMenuOpen"
@@ -24,9 +34,7 @@
       </v-list>
     </v-navigation-drawer>
     <v-content>
-      <v-container grid-list-xl>
-        <!--  -->
-      </v-container>
+      <v-container grid-list-xl> </v-container>
     </v-content>
   </header>
 </template>
@@ -63,8 +71,8 @@ export default {
         url: "/store"
       },
       {
-        label: "Tours",
-        url: "/tours"
+        label: "Shows",
+        url: "/shows"
       }
     ]
   }),

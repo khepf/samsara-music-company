@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-card class="mx-auto my-2" max-width="400">
+    <v-card class="mx-auto my-3" max-width="400">
       <v-img
         class="white--text align-end"
         height="200px"
@@ -21,9 +21,13 @@
         <v-btn color="orange" text>
           Tickets
         </v-btn>
+        <v-spacer />
+        <v-btn color="orange" text>
+          RSVP
+        </v-btn>
       </v-card-actions>
     </v-card>
-    <v-card class="mx-auto my-2" max-width="400">
+    <v-card class="mx-auto my-3" max-width="400">
       <v-img
         class="white--text align-end"
         height="200px"
@@ -44,9 +48,13 @@
         <v-btn color="orange" text>
           Tickets
         </v-btn>
+        <v-spacer />
+        <v-btn color="orange" text>
+          RSVP
+        </v-btn>
       </v-card-actions>
     </v-card>
-    <v-card class="mx-auto my-2" max-width="400">
+    <v-card class="mx-auto my-3" max-width="400">
       <v-img
         class="white--text align-end"
         height="200px"
@@ -67,9 +75,13 @@
         <v-btn color="orange" text>
           Tickets
         </v-btn>
+        <v-spacer />
+        <v-btn color="orange" text>
+          RSVP
+        </v-btn>
       </v-card-actions>
     </v-card>
-    <v-card class="mx-auto my-2" max-width="400">
+    <v-card class="mx-auto my-3" max-width="400">
       <v-img
         class="white--text align-end"
         height="200px"
@@ -90,9 +102,13 @@
         <v-btn color="orange" text>
           Tickets
         </v-btn>
+        <v-spacer />
+        <v-btn color="orange" text>
+          RSVP
+        </v-btn>
       </v-card-actions>
     </v-card>
-    <v-card class="mx-auto my-2" max-width="400">
+    <v-card class="mx-auto my-3" max-width="400">
       <v-img
         class="white--text align-end"
         height="200px"
@@ -113,9 +129,13 @@
         <v-btn color="orange" text>
           Tickets
         </v-btn>
+        <v-spacer />
+        <v-btn color="orange" text>
+          RSVP
+        </v-btn>
       </v-card-actions>
     </v-card>
-    <v-card class="mx-auto my-2" max-width="400">
+    <v-card class="mx-auto my-3" max-width="400">
       <v-img
         class="white--text align-end"
         height="200px"
@@ -136,9 +156,13 @@
         <v-btn color="orange" text>
           Tickets
         </v-btn>
+        <v-spacer />
+        <v-btn color="orange" text>
+          RSVP
+        </v-btn>
       </v-card-actions>
     </v-card>
-    <v-card class="mx-auto my-2" max-width="400">
+    <v-card class="mx-auto my-3" max-width="400">
       <v-img
         class="white--text align-end"
         height="200px"
@@ -158,6 +182,10 @@
       <v-card-actions>
         <v-btn color="orange" text>
           Tickets
+        </v-btn>
+        <v-spacer />
+        <v-btn color="orange" text>
+          RSVP
         </v-btn>
       </v-card-actions>
     </v-card>
