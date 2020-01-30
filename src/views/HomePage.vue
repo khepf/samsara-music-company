@@ -1,12 +1,12 @@
 <template>
   <v-container>
     <v-layout text-center wrap>
-      <v-flex xs12>
+      <v-flex xs12 justify="center">
         <section
           class="top-flex"
           :style="{
             backgroundImage: `url(${band1})`,
-            backgroundSize: '100% 100%'
+            backgroundSize: 'cover'
           }"
         >
           <v-img
