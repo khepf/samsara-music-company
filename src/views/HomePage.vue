@@ -140,9 +140,6 @@ export default {
 };
 </script>
 <style lang="scss">
-.top-flex {
-  border: 2px solid red;
-}
 .samsara-logo {
   opacity: 0.8;
 }
